@@ -385,3 +385,70 @@
   385  git branch
   386  git log
   387  history > history.txt
+  388  git branch
+  389  cd history
+  390  git checkout history
+  391  git log
+  392  git status
+  393  cd master
+  394  git add history.txt
+  395  git commit -m "added history"
+  396  git log
+  397  git add history.txt
+  398  git checkout history
+  399  git status
+  400  git log
+  401  cd master
+  402  git checkout master
+  403  git log
+  404  git checkout milkshakes
+  405  git checkout milkshake
+  406  git checkout milkshake-flavours
+  407  git log
+  408  git branch
+  409  git status
+  410  nano README.md
+  411  git checkout history
+  412  cat README.md
+  413  rm README.md
+  414  echo "booya" > README.md
+  415  cat README>md
+  416  cat README.md
+  417  git add README.md
+  418  git commit -m "rewrote readme"
+  419  git checkout master
+  420  ls
+  421  git log
+  422  git checkout milkshake-flavurs
+  423  git checkout milkshake-flavours
+  424  ls
+  425  git log
+  426  git checkout history
+  427  ls
+  428  git log
+  429  git checkout master
+  430  git merge milkshake-flavours
+  431  ls
+  432  git log
+  433  git checkout history
+  434  git merge master
+  435  ls
+  436  git log
+  437  git remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  438  git remote add -u master gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  439  git push -u origin master gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  440  git push -u origin master https://github.com/MojalefaMoja/git-basic-exercises.git
+  441  git remote add origin https://github.com/MojalefaMoja/git-basic-exercises.git
+  442  git branch -M main
+  443  git push -u origin main
+  444  git push -u origin milkshake-flavours
+  445  git push -u origin history
+  446  git push -u origin history
+  447  git branch
+  448  git checkout history
+  449  git checkout master
+  450  git branch
+  451  git checkout main
+  452  git branch history
+  453  git branch
+  454  history > history.txt
