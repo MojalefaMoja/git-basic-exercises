@@ -1,0 +1,387 @@
+    1  ls -lrh
+    2  clers
+    3  clear
+    4  ls
+    5  clear
+    6  ls
+    7  ls /data
+    8  ls /Documents/
+    9  ls /etc/per1
+   10  clear
+   11  ls
+   12  ls videos/
+   13  ls Documents/
+   14  clear
+   15  ls
+   16  ls Downloads/
+   17  ls Download/work/
+   18  ls Download/work
+   19  ls Download/'work'/
+   20  ls Download/work/
+   21  ls Download/locales/made it(1).wav
+   22  ls Download/locales/made it (1).wav
+   23  clear
+   24  /
+   25  ls /
+   26  mkdir eather.png
+   27  ls -a
+   28  clear
+   29  mkdir git-basic-exercises
+   30  ls
+   31  cd git-basic-exercises
+   32  ls -a
+   33  git init
+   34  ls -a
+   35  git status
+   36  touch README.md
+   37  ls -a
+   38  git status
+   39  gir log
+   40  git log
+   41  git add <README.md>
+   42  git add <README>
+   43  git add.
+   44  git add README.md
+   45  git status
+   46  git rm --cached README.md
+   47  git status
+   48  git add README.md
+   49  git commit -m "intial commit"
+   50  git commit -m 
+   51  git commit -m "intial commit"
+   52  --global
+   53  git config --global user.email "mojalefamoja@ymail.com"
+   54  git config --global user.name "Mojalefa JJ Moja"
+   55  git commit -m "intial commit"
+   56  nano README.md
+   57  cat README.md
+   58  git status
+   59  git commit -a "second commit"
+   60  git commit -a 
+   61  git commit -m "second commit"
+   62  git add.
+   63  git add ReadME.md
+   64  git commit -m "second commit"
+   65  git add README.md
+   66  git commit -m "second commit"
+   67  nano README.md
+   68  git add README.md
+   69  git commit -m "third commit"
+   70  git log
+   71  q
+   72  git checkout
+   73  git log
+   74  q
+   75  git checkout $ git log
+   76  commit 833bc4ca6ef914c9fcd0fb2f223f86cdf711f476 (HEAD -> master)
+   77  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   78  Date:   Sat Jan 15 10:17:25 2022 +0200
+   79      third commit
+   80  commit 6701df4fd522e8832e200db83bd130582af619f8
+   81  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   82  Date:   Sat Jan 15 10:14:26 2022 +0200
+   83      second commit
+   84  commit 5e1b679b8bc9492450270f2e18c38d70a55dc489
+   85  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   86  Date:   Sat Jan 15 09:50:13 2022 +0200
+   87  git checkout commit 833bc4ca6ef914c9fcd0fb2f223f86cdf711f476 (HEAD -> master)
+   88  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   89  Date:   Sat Jan 15 10:17:25 2022 +0200
+   90      third commit
+   91  commit 6701df4fd522e8832e200db83bd130582af619f8
+   92  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   93  Date:   Sat Jan 15 10:14:26 2022 +0200
+   94      second commit
+   95  commit 5e1b679b8bc9492450270f2e18c38d70a55dc489
+   96  Author: Mojalefa JJ Moja <mojalefamoja@ymail.com>
+   97  Date:   Sat Jan 15 09:50:13 2022 +0200
+   98      intial commit
+   99  git checkout 6701df4fd522e8832e200db83bd130582af619f8
+  100  git checkout 5e1b679b8bc9492450270f2e18c38d70a55dc489
+  101  cat README.md
+  102  cd
+  103  cd git-basic-exercises
+  104  cat README.md
+  105  git checkout main
+  106  q
+  107  cd git-basic-exercises (master)
+  108  git checkout master
+  109  git checkout main
+  110  cat README.md
+  111  git branch
+  112  git branch milkshake-flavours
+  113  git branch *
+  114  git branch 
+  115  git checkout milkshake-flavours
+  116  git checkout *
+  117  git checkout master
+  118  git checkout milkshake-flavours
+  119  nano milkshake-flavours.md
+  120  git status
+  121  git add milkshake-flavours.md
+  122  gir commit -m "added initial flavours"
+  123  git commit -m "added initial flavours"
+  124  git log
+  125  git checkout master
+  126  git branch 
+  127  git branch history
+  128  git log
+  129  git branch 
+  130  history > history.txt
+  131  git commit -m "added history"
+  132  git add history.txt
+  133  git commit -m "added history"
+  134  git log
+  135  git checkout milkshake-flavours
+  136  git log
+  137  git checkout master
+  138  nano README.md
+  139  git add README.md
+  140  git commit -m "random readme changes"
+  141  git checkout history
+  142  cat README.md
+  143  rm README.md
+  144  echo "booya" > README.md
+  145  git add README.dm
+  146  rm README.md  echo "booya" > README.md
+  147  git commit -m "rewrote readme"
+  148  git add README.md
+  149  git commit -m "rewrote readme"
+  150  git checkout master
+  151  ls
+  152  git lod
+  153  git log
+  154  git checkout milshake-flavours
+  155  git checkout milshake-flavors
+  156  git checkout milkshake-flavours
+  157  ls
+  158  git checkout history
+  159  ls
+  160  git checkout master
+  161  ls
+  162  mv history.txt /git-basic-exercises (history)
+  163  git log
+  164  git checkout history
+  165  ls
+  166  git checkout master "history.txt"
+  167  git add history.txt
+  168  git commit -m "Moving file to correct branch"
+  169  ls
+  170  git checkout master "README.md"
+  171  git add README.md
+  172  git commit -m "Moving file to correct branch for README.md"
+  173  ls
+  174  git checkout master 
+  175  ls
+  176  rm history.md
+  177  rm history.txt
+  178  ls
+  179  git checkout history
+  180  git log
+  181  checkout master
+  182  git checkout master
+  183  git commit -m "remove history"
+  184  git rm history.txt
+  185  git commit -m "remove history"
+  186  git merge milkshake-flavours
+  187  ls
+  188  git log
+  189  git checkout history
+  190  git log
+  191  git cheeckout milkshake-flavours
+  192  git checkout milkshake-flavours
+  193  gitlog
+  194  git log
+  195  git checkout history
+  196  git merge master
+  197  git checkout master
+  198  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  199  git branch -M master
+  200  git push -u origin master
+  201  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  202  git push -u origin master
+  203  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  204  git push -u origin master
+  205  pwd
+  206  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  207  git push -u origin master
+  208  pwd
+  209  git push -u origin master
+  210  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  211  git push -u origin master
+  212  cd git-basic-exercises
+  213  git remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises.git
+  214  git push -u origin master
+  215  ls
+  216  git log
+  217  git checkout history
+  218  git log
+  219  git push -u origin history
+  220  git push -u origin milshake-flavours
+  221  git push -u origin milkshake-flavours
+  222  cd/
+  223  cd../
+  224  cd
+  225  clear
+  226  fit clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  227  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  228  cd
+  229  cd a-repo-to-clone
+  230  git branch
+  231  git log
+  232  git branch -a
+  233  git checkout project/git-basic-exercises
+  234  git checkout project/git-basic-exercises
+  235  git remote -v
+  236  git checkout 
+  237  * main
+  238  git branch
+  239  git branch project/git-basic-exercises
+  240  git branch
+  241  git checkout project/git-basic-exercises
+  242  git remote -v
+  243  git log
+  244  cd 
+  245  cd git-basic-exercises
+  246  git log
+  247  cd
+  248  cd git-basic-exercises
+  249  git check out master
+  250  git checkout master
+  251  git log
+  252  cd
+  253  mkdir this-will-be-another-repo
+  254  cd this-will-be-another-repo
+  255  git init
+  256  touch README.md
+  257  git add README.md
+  258  git commit -m "first commit"
+  259  cd git-basic-exercises
+  260  git log
+  261  touch ignore-me.db
+  262  git status
+  263  nano .gitignore
+  264  git status
+  265  cd
+  266  mkdir large-directory-that-should-be-local-only
+  267  cd large-directory-that-should-be-local-only
+  268  nano README.md
+  269  cd
+  270  git status
+  271  cd large-directory-that-should-be-local-only
+  272  git status
+  273  git log
+  274  cat README.md
+  275  git status
+  276  git log
+  277  git init
+  278  git status
+  279  cd
+  280  cd large-directory-that-should-be-local-only
+  281  delete large-directory-that-should-be-local-only
+  282  git rm -r --cached large-directory-that-shoud-be-local-only
+  283  cd
+  284  git rm -r --cached large-directory-that-shoud-be-local-only
+  285  git rm -r --cached large-directory-that-should-be-local-only 
+  286  cd large-directory-that-should-be-local-only 
+  287  cd large-directory-that-should-be-local-only 
+  288  git commit removed large-directory-that-should-be-deleted
+  289  cd git-basci-exercises
+  290  cd git-basic-exercises
+  291  mkdir large-directory-that-should-be-deleted
+  292  cd large-directory-that-should-be-deleted
+  293  nano README.md
+  294  cd
+  295  cd git-basic-exercises
+  296  git status
+  297  nano .gitignore
+  298  git status
+  299  git add .gitignore
+  300  git commit -m "added .gitignore"
+  301  git push
+  302  git branch
+  303  git push
+  304  git status
+  305  git push -uorigin master
+  306  git push -u origin master
+  307  remote add origin https://github.com/MojalefaMoja/MojalefaMoja-git-basic-exercises
+  308  remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  309  remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  310  remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  311  git push
+  312  git add large-directory-that-should-be-deleted
+  313  git commit -m "last commit to push"
+  314  git push
+  315  git pull --rebase origin main
+  316  git pull --rebase origin master
+  317  git push
+  318  cd
+  319  clear
+  320  cd git-basic-exercises
+  321  delete large-directory-that-should-be-local-only
+  322  rm -d large-directory-that-should-be-local-only
+  323  git branch
+  324  git log
+  325  cd large-directory-that-should-be-local-only
+  326  cd
+  327  cd large-directory-that-should-be-local-only
+  328  git remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  329* cd 
+  330  git remote add origin gh repo clone MojalefaMoja/MojalefaMoja-git-basic-exercises
+  331  git push -u origin master
+  332  cd
+  333  rm -d git-basic-exercises
+  334  cd git-basic-exercises
+  335  git push -u origin master
+  336  mkdir git_basic-exercises
+  337  cd git_basic-exercises
+  338  ls -a
+  339  git init
+  340  ls -a
+  341  git status
+  342  touch README.md
+  343  ls -a
+  344  git status
+  345  git log
+  346  git add README.md
+  347  git status
+  348  git rm --cached README.md
+  349  git status
+  350  git add README.md
+  351  git commit -m "initial commit"
+  352  git log
+  353  nano README.md
+  354  cat README.md
+  355  git status
+  356  git add README.md
+  357  git commit -m "second commit"
+  358  nano README.md
+  359  git add README.md
+  360  git commit -m "Third commit"
+  361  git log
+  362   9d3e3470cf900227d47f830e8985c13c70699c27
+  363  git checkout  9d3e3470cf900227d47f830e8985c13c70699c27
+  364  cat README.md
+  365  git checkout main
+  366  git checkout master
+  367  cat README.md
+  368  git branch milkshake-flavours
+  369  git branch
+  370  checkout milkshake-flavours
+  371  git checkout milkshake-flavours
+  372  git branch
+  373  git checkout master
+  374  git branch
+  375  git checkout milkshake-flavours
+  376  nano milkshakes.md
+  377  git status
+  378  git add milkshakes.md
+  379  git commit -m "added initial flavours"
+  380  git log
+  381  git checkout master
+  382  git status
+  383  git branch
+  384  git branch history
+  385  git branch
+  386  git log
+  387  history > history.txt
